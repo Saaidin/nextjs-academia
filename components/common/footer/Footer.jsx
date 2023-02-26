@@ -14,6 +14,7 @@ import PhoneIcon from "@mui/icons-material/Phone"
 import Image from "next/image"
 
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt"
+import ScrollUp from "../../ScrollUp"
 
 const Footer = () => {
   return (
@@ -194,6 +195,12 @@ const Footer = () => {
           </i>{" "}
           by DinWebDev
         </p>
+        <div className="flex cursor-pointer max-w-[400px] sm:container mx-auto justify-center items-center ">
+          <div className="w-[60px] h-[60px] bg-[#1eb2a6] rounded-full hover:bg-green-300" />
+          <div className="text-white text-4xl absolute">
+            <ScrollUp />
+          </div>
+        </div>
       </div>
     </>
   )
