@@ -13,6 +13,8 @@ import MapIcon from "@mui/icons-material/Map"
 import PhoneIcon from "@mui/icons-material/Phone"
 import Image from "next/image"
 
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt"
+
 const Footer = () => {
   return (
     <>
@@ -64,21 +66,71 @@ const Footer = () => {
             <div className="box link w-[50%]">
               <h3>Explore</h3>
               <ul>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Courses</li>
-                <li>Blog</li>
-                <li>Contact us</li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  About Us
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Services
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Courses
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Blog
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Contact us
+                </li>
               </ul>
             </div>
             <div className="box link w-[50%]">
               <h3>Quick Links</h3>
               <ul>
-                <li>Contact Us</li>
-                <li>Pricing</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy</li>
-                <li>Feedbacks</li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Contact us
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Pricing
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Terms & Conditions
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Privacy
+                </li>
+                <li className="flex">
+                  <i className="text-[#1eb2a6]">
+                    <ArrowRightAltIcon />
+                  </i>
+                  Feedbacks
+                </li>
               </ul>
             </div>
           </div>
